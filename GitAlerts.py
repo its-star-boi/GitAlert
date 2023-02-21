@@ -53,15 +53,15 @@ UPDATES = xxc
 
 def help(update: Update, context: CallbackContext):
     message = update.effective_message
-    textto = "To get alerts about your repository follow the steps below \n\n1.Add @Itz_Git_Gram_Bot in your group where you want bot to send alerts. \n\n2.Send /id command. \n\n3.Send /connect <Your group id> (must start with -100) \n\n4. Add this bot in that group where you want to receive alerts."
+    textto = "ᴛᴏ ɢᴇᴛ ᴀʟᴇʀᴛs ᴀʙᴏᴜᴛ ʏᴏᴜʀ ʀᴇᴘᴏsɪᴛᴏʀʏ ғᴏʟʟᴏᴡ ᴛʜᴇ sᴛᴇᴘs ʙᴇʟᴏᴡ \n\n1.ᴀᴅᴅ @Itz_Git_Gram_Bot ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡʜᴇʀᴇ ʏᴏᴜ ᴡᴀɴᴛ ʙᴏᴛ ᴛᴏ sᴇɴᴅ ᴀʟᴇʀᴛs. \n\n2.sᴇɴᴅ /id ᴄᴏᴍᴍᴀɴᴅ. \n\n3.sᴇɴᴅ /connect <ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪᴅ> (ᴍᴜsᴛ sᴛᴀʀᴛ ᴡɪᴛʜ -100) \n\n4. ᴀᴅᴅ ᴛʜɪs ʙᴏᴛ ɪɴ ᴛʜᴀᴛ ɢʀᴏᴜᴘ ᴡʜᴇʀᴇ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ʀᴇᴄᴇɪᴠᴇ ᴀʟᴇʀᴛs."
     pic = "https://telegra.ph/file/18155a81e0d3f0e71fd09.jpg"
     buttons1 = [
             [
-              InlineKeyboardButton("Owner", url=f"https://t.me/{DEVELOPER}"),
-              InlineKeyboardButton ("Updates", url=f"https://t.me/{UPDATES}"),
+              InlineKeyboardButton("❤️‍🔥 ᴏᴡɴᴇʀ", url=f"https://t.me/{DEVELOPER}"),
+              InlineKeyboardButton ("🥀 ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES}"),
             ],
             [
-             InlineKeyboardButton("Source", url=f"https://github.com/{SOURCE}")],
+             InlineKeyboardButton("💖 sᴏᴜʀᴄᴇ", url=f"https://github.com/{SOURCE}")],
        ]
     markup_lol = InlineKeyboardMarkup(buttons1)
     update.message.reply_photo(photo=pic, caption=textto, reply_markup=markup_lol)
@@ -70,14 +70,14 @@ def help(update: Update, context: CallbackContext):
 def lol(update: Update, context: CallbackContext):
     message = update.effective_message
     Pop = "https://telegra.ph/file/18155a81e0d3f0e71fd09.jpg"
-    text = "Hello there I'm GitAlerts bot made by @Star_X_Network \nCheck support group for help regarding bot or deployment. \n\nFor help send /help \nFor source send /repo"
+    text = "ʜᴇʟʟᴏ ᴛʜᴇʀᴇ ɪ'ᴍ ɢɪᴛᴀʟᴇʀᴛs ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ @Star_X_Network \nᴄʜᴇᴄᴋ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ғᴏʀ ʜᴇʟᴘ ʀᴇɢᴀʀᴅɪɴɢ ʙᴏᴛ ᴏʀ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ. \n\nғᴏʀ ʜᴇʟᴘ sᴇɴᴅ /help \nғᴏʀ sᴏᴜʀᴄᴇ sᴇɴᴅ /repo"
     
     buttons = [
              [
-               InlineKeyboardButton("Support", url="https://t.me/Best_FriendsFor_Ever"),
-               InlineKeyboardButton("Updates", url=f"https://t.me/{UPDATES}"),
+               InlineKeyboardButton("🌹 sᴜᴘᴘᴏʀᴛ", url="https://t.me/Best_FriendsFor_Ever"),
+               InlineKeyboardButton("🥀 ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES}"),
              ],
-             [InlineKeyboardButton("Source", url=f"https://github.com/{SOURCE}")],  
+             [InlineKeyboardButton("💖 sᴏᴜʀᴄᴇ", url=f"https://github.com/{SOURCE}")],  
           ]
 
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -86,15 +86,15 @@ def lol(update: Update, context: CallbackContext):
 
 def source(update: Update, context: CallbackContext):
     message = update.effective_message
-    textto = "Source of this bot!"
+    textto = "sᴏᴜʀᴄᴇ ᴏғ ᴛʜɪs ʙᴏᴛ!"
     pic = "https://telegra.ph/file/18155a81e0d3f0e71fd09.jpg"
     buttons1 = [
             [
-              InlineKeyboardButton("Owner", url=f"https://t.me/{DEVELOPER}"),
-              InlineKeyboardButton ("Updates", url=f"https://t.me/{UPDATES}"),
+              InlineKeyboardButton("❤️‍🔥 ᴏᴡɴᴇʀ", url=f"https://t.me/{DEVELOPER}"),
+              InlineKeyboardButton ("🥀 ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES}"),
             ],
             [
-             InlineKeyboardButton("Source", url=f"https://github.com/{SOURCE}")],
+             InlineKeyboardButton("💖 sᴏᴜʀᴄᴇ", url=f"https://github.com/{SOURCE}")],
        ]
     markup_lol = InlineKeyboardMarkup(buttons1)
     update.message.reply_photo(photo=pic, caption=textto, reply_markup=markup_lol)
@@ -104,23 +104,23 @@ def connect(update: Update, context: CallbackContext):
     text = message.text[len("/connect ") :]
 
     if text =='':
-        message.reply_text("Kindly give your group id \nTo know how to get group id send /help")
+        message.reply_text("ᴋɪɴᴅʟʏ ɢɪᴠᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪᴅ \nᴛᴏ ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ ɢᴇᴛ ɢʀᴏᴜᴘ ɪᴅ sᴇɴᴅ /help")
     x = re.search("^-100", text)
 
     if x or text !="":
-        reply_text = f"Payload url: `https://{HEROKU_APPNAME}.herokuapp.com//{text}` \n\nSend /morehelp for more help."
+        reply_text = f"Payload url: `https://{HEROKU_APPNAME}.herokuapp.com//{text}` \n\nsᴇɴᴅ /morehelp ғᴏʀ ᴍᴏʀᴇ ʜᴇʟᴘ."
         message.reply_text(reply_text, parse_mode=ParseMode.MARKDOWN)
     else:
-        reply_texto = "Wrong chat id! it must start with -1001 or -100"
+        reply_texto = "ᴡʀᴏɴɢ ᴄʜᴀᴛ ɪᴅ! ɪᴛ ᴍᴜsᴛ sᴛᴀʀᴛ ᴡɪᴛʜ -1001 ᴏʀ -100"
         message.reply_text(reply_texto)
 
 def more_help(update: Update, context: CallbackContext):
-    tt = "1.Go to repo settings \n2.Find webhooks there \n3.Add Payload url there \n\n4. Change content type to application/json \n\n5.Which events would you like to trigger this webhook? \nâ€¢ Choose 1st or 2nd option \n\n6. Add webhook \n7. Done!"
+    tt = "1.ɢᴏ ᴛᴏ ʀᴇᴘᴏ sᴇᴛᴛɪɴɢs \n2.ғɪɴᴅ ᴡᴇʙʜᴏᴏᴋs ᴛʜᴇʀᴇ \n3.ᴀᴅᴅ ᴘᴀʏʟᴏᴀᴅ ᴜʀʟ ᴛʜᴇʀᴇ \n\n4. ᴄʜᴀɴɢᴇ ᴄᴏɴᴛᴇɴᴛ ᴛʏᴘᴇ ᴛᴏ application/json \n\n5.ᴡʜɪᴄʜ ᴇᴠᴇɴᴛs ᴡᴏᴜʟᴅ ʏᴏᴜ ʟɪᴋᴇ ᴛᴏ ᴛʀɪɢɢᴇʀ ᴛʜɪs ᴡᴇʙʜᴏᴏᴋ? \n ᴄʜᴏᴏsᴇ 𝟷sᴛ ᴏʀ 𝟸ɴᴅ ᴏᴘᴛɪᴏɴ \n\n6. ᴀᴅᴅ ᴡᴇʙʜᴏᴏᴋ \n7. ᴅᴏɴᴇ!"
     image = "https://telegra.ph/file/0239f2414d3430c29338f.jpg"
     btn = [
           [
-           InlineKeyboardButton("Updates", url=f"https://t.me/{UPDATES}"),
-           InlineKeyboardButton("Owner", url=f"https://t.me/{DEVELOPER}"),
+           InlineKeyboardButton("🥀 ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES}"),
+           InlineKeyboardButton("❤️‍🔥 ᴏᴡɴᴇʀ", url=f"https://t.me/{DEVELOPER}"),
           ],
       ]
     haha = InlineKeyboardMarkup(btn)
@@ -171,9 +171,9 @@ def reply_tg(chat, message_id, message, parse_mode):
 
 
 @server.route("/", methods=['GET'])
-# Just send 'Hello, world!' to tell that our server is up.
+# ᴊᴜsᴛ sᴇɴᴅ 'ʜᴇʟʟᴏ, ᴡᴏʀʟᴅ!' ᴛᴏ ᴛᴇʟʟ ᴛʜᴀᴛ ᴏᴜʀ sᴇʀᴠᴇʀ ɪs ᴜᴘ.
 def helloWorld():
-    return 'Hello, world!'
+    return 'ʜᴇʟʟᴏ, ᴡᴏʀʟᴅ!'
 
 
 @server.route("/<groupid>", methods=['GET', 'POST'])
@@ -181,7 +181,7 @@ def git_api(groupid):
     """Requests to api.github.com"""
     data = request.json
     if not data:
-        return f"<b>Add this url:</b> {ip_addr}/{groupid} to webhooks of the project"
+        return f"<b>ᴀᴅᴅ ᴛʜɪs ᴜʀʟ:</b> {ip_addr}/{groupid} ᴛᴏ ᴡᴇʙʜᴏᴏᴋs ᴏғ ᴛʜᴇ ᴘʀᴏᴊᴇᴄᴛ"
 
     if data.get('hook'):
         repo_url = data['repository']['html_url']
@@ -190,7 +190,7 @@ def git_api(groupid):
         sender_name = data['sender']['login']
         response = post_tg(
             groupid,
-            f"🌟 Successfully set webhook for <a href='{repo_url}'>{repo_name}</a> by <a href='{sender_url}'>{sender_name}</a>!",
+            f"✅ sᴜᴄᴄᴇssғᴜʟʟʏ sᴇᴛ ᴡᴇʙʜᴏᴏᴋ ғᴏʀ <a href='{repo_url}'>{repo_name}</a> by <a href='{sender_url}'>{sender_name}</a>!",
             "html"
         )
         return response
@@ -208,53 +208,53 @@ def git_api(groupid):
                 commit_msg = escape(commit['message'])
             commits_text += f"{commit_msg}\n<a href='{commit['url']}'>{commit['id'][:7]}</a> - {commit['author']['name']} {escape('<')}{commit['author']['email']}{escape('>')}\n\n"
             if len(commits_text) > 1000:
-                text = f"""✨ <b>{escape(data['repository']['name'])}</b> - New {len(data['commits'])} commits ({escape(data['ref'].split('/')[-1])})
+                text = f"""✨ <b>{escape(data['repository']['name'])}</b> - ɴᴇᴡ {len(data['commits'])} ᴄᴏᴍᴍɪᴛs ({escape(data['ref'].split('/')[-1])})
 {commits_text}
 """
                 response = post_tg(groupid, text, "html")
                 commits_text = ""
         if not commits_text:
             return jsonify({"ok": True, "text": "Commits text is none"})
-        text = f"""✨¨ <b>{escape(data['repository']['name'])}</b> - New {len(data['commits'])} commits ({escape(data['ref'].split('/')[-1])})
+        text = f"""✨¨ <b>{escape(data['repository']['name'])}</b> - ɴᴇᴡ {len(data['commits'])} ᴄᴏᴍᴍɪᴛs ({escape(data['ref'].split('/')[-1])})
 {commits_text}
 """
         if len(data['commits']) > 10:
-            text += f"\n\n<i>And {len(data['commits']) - 10} other commits</i>"
+            text += f"\n\n<i>ᴀɴᴅ {len(data['commits']) - 10} ᴏᴛʜᴇʀ ᴄᴏᴍᴍɪᴛs</i>"
         response = post_tg(groupid, text, "html")
         return response
 
     if data.get('issue'):
         if data.get('comment'):
-            text = f"""🚨’¬ New comment: <b>{escape(data['repository']['name'])}</b>
+            text = f"""💭’¬ ɴᴇᴡ ᴄᴏᴍᴍᴇɴᴛ: <b>{escape(data['repository']['name'])}</b>
 {escape(data['comment']['body'])}
 
 <a href='{data['comment']['html_url']}'>Issue #{data['issue']['number']}</a>
 """
             response = post_tg(groupid, text, "html")
             return response
-        text = f"""🚨¨ New {data['action']} issue for <b>{escape(data['repository']['name'])}</b>
+        text = f"""🚫 ɴᴇᴡ {data['action']} ɪssᴜᴇ ғᴏʀ <b>{escape(data['repository']['name'])}</b>
 <b>{escape(data['issue']['title'])}</b>
 {escape(data['issue']['body'])}
 
-<a href='{data['issue']['html_url']}'>issue #{data['issue']['number']}</a>
+<a href='{data['issue']['html_url']}'>ɪssᴜᴇ #{data['issue']['number']}</a>
 """
         response = post_tg(groupid, text, "html")
         return response
 
     if data.get('pull_request'):
         if data.get('comment'):
-            text = f"""💬— There is a new pull request for <b>{escape(data['repository']['name'])}</b> ({data['pull_request']['state']})
+            text = f"""💬— ᴛʜᴇʀᴇ ɪs ᴀ ɴᴇᴡ ᴘᴜʟʟ ʀᴇǫᴜᴇsᴛ ғᴏʀ <b>{escape(data['repository']['name'])}</b> ({data['pull_request']['state']})
 {escape(data['comment']['body'])}
 
 <a href='{data['comment']['html_url']}'>Pull request #{data['issue']['number']}</a>
 """
             response = post_tg(groupid, text, "html")
             return response
-        text = f"""❗—  New {data['action']} pull request for <b>{escape(data['repository']['name'])}</b>
+        text = f"""❗—  ɴᴇᴡ {data['action']} ᴘᴜʟʟ ʀᴇǫᴜᴇsᴛ ғᴏʀ <b>{escape(data['repository']['name'])}</b>
 <b>{escape(data['pull_request']['title'])}</b> ({data['pull_request']['state']})
 {escape(data['pull_request']['body'])}
 
-<a href='{data['pull_request']['html_url']}'>Pull request #{data['pull_request']['number']}</a>
+<a href='{data['pull_request']['html_url']}'>ᴘᴜʟʟ ʀᴇǫᴜᴇsᴛ #{data['pull_request']['number']}</a>
 """
         response = post_tg(groupid, text, "html")
         return response
@@ -262,7 +262,7 @@ def git_api(groupid):
     if data.get('forkee'):
         response = post_tg(
             groupid,
-            f"🍀´ <a href='{data['sender']['html_url']}'>{data['sender']['login']}</a> forked <a href='{data['repository']['html_url']}'>{data['repository']['name']}</a>!\nTotal forks now are {data['repository']['forks_count']}",
+            f"🍀´ <a href='{data['sender']['html_url']}'>{data['sender']['login']}</a> ғᴏʀᴋᴇᴅ <a href='{data['repository']['html_url']}'>{data['repository']['name']}</a>!\nᴛᴏᴛᴀʟ ғᴏʀᴋs ɴᴏᴡ ᴀʀᴇ {data['repository']['forks_count']}",
             "html")
         return response
 
@@ -275,7 +275,7 @@ def git_api(groupid):
             return response
 
         if data.get('action') == "started":
-            text = f"💘 <a href='{data['sender']['html_url']}'>{data['sender']['login']}</a> gave a star to <a href='{data['repository']['html_url']}'>{data['repository']['name']}</a>!\nTotal stars are now {data['repository']['stargazers_count']}"
+            text = f"💘 <a href='{data['sender']['html_url']}'>{data['sender']['login']}</a> ɢᴀᴠᴇ ᴀ sᴛᴀʀ ᴛᴏ<a href='{data['repository']['html_url']}'>{data['repository']['name']}</a>!\ɴᴛᴏᴛᴀʟ sᴛᴀʀs ᴀʀᴇ ɴᴏᴡ {data['repository']['stargazers_count']}"
             response = post_tg(groupid, text, "html")
             return response
 
@@ -297,19 +297,19 @@ def git_api(groupid):
     if data.get('ref_type'):
         response = post_tg(
             groupid,
-            f"A new {data['ref_type']} on <a href='{data['repository']['html_url']}'>{data['repository']['name']}</a> was created by <a href='{data['sender']['html_url']}'>{data['sender']['login']}</a>!",
+            f"ᴀ ɴᴇᴡ {data['ref_type']} ᴏɴ <a href='{data['repository']['html_url']}'>{data['repository']['name']}</a> ᴡᴀs ᴄʀᴇᴀᴛᴇᴅ ʙʏ <a href='{data['sender']['html_url']}'>{data['sender']['login']}</a>!",
             "html")
         return response
 
     if data.get('created'):
         response = post_tg(groupid,
-                           f"Branch {data['ref'].split('/')[-1]} <b>{data['ref'].split('/')[-2]}</b> on <a href='{data['repository']['html_url']}'>{data['repository']['name']}</a> was created by <a href='{data['sender']['html_url']}'>{data['sender']['login']}</a>!",
+                           f"ʙʀᴀɴᴄʜ {data['ref'].split('/')[-1]} <b>{data['ref'].split('/')[-2]}</b> ᴏɴ <a href='{data['repository']['html_url']}'>{data['repository']['name']}</a> ᴡᴀs ᴄʀᴇᴀᴛᴇᴅ ʙʏ <a href='{data['sender']['html_url']}'>{data['sender']['login']}</a>!",
                            "html")
         return response
 
     if data.get('deleted'):
         response = post_tg(groupid,
-                           f"Branch {data['ref'].split('/')[-1]} <b>{data['ref'].split('/')[-2]}</b> on <a href='{data['repository']['html_url']}'>{data['repository']['name']}</a> was deleted by <a href='{data['sender']['html_url']}'>{data['sender']['login']}</a>!",
+                           f"Branch {data['ref'].split('/')[-1]} <b>{data['ref'].split('/')[-2]}</b> on <a href='{data['repository']['html_url']}'>{data['repository']['name']}</a> ᴡᴀs ᴅᴇʟᴇᴛᴇᴅ ʙʏ <a href='{data['sender']['html_url']}'>{data['sender']['login']}</a>!",
                            "html")
         return response
     xx = bytearray.fromhex(" 49 74 73 2d 73 74 61 72 2d 62 6f 69 ").decode()
@@ -368,7 +368,7 @@ def git_api(groupid):
     url = deldog(data)
     response = post_tg(
         groupid,
-        "🚫« Webhook endpoint for this chat has received something that doesn't understood yet. " +
+        "🚫« ᴡᴇʙʜᴏᴏᴋ ᴇɴᴅᴘᴏɪɴᴛ ғᴏʀ ᴛʜɪs ᴄʜᴀᴛ ʜᴀs ʀᴇᴄᴇɪᴠᴇᴅ sᴏᴍᴇᴛʜɪɴɢ ᴛʜᴀᴛ ᴅᴏᴇsɴ'ᴛ ᴜɴᴅᴇʀsᴛᴏᴏᴅ ʏᴇᴛ. " +
         f"\n\nLink to logs for debugging: {url}",
         "markdown")
     return response
