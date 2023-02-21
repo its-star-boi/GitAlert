@@ -32,19 +32,6 @@ The easiest way to host this bot, deploy to Heroku, Change the app country to Eu
 - Run `python3 GitGram.py`
 
 
-
-## ᴅᴇᴩʟᴏʏ ᴏɴ ɢɪᴛᴩᴏᴅ 🚀:
-
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Starboihacks369/GitGram)
-
-
-## ᴛʀʏ ᴏɴ ɢɪᴛᴩᴏᴅ:
-1. [Login to Gitpod](https://gitpod.io/login).
-2. [Open this in Gitpod](https://gitpod.io/#github.com/starboihacks369/GitGram).
-3. After workspace build, dependencies will be installed.
-4. Follow step 2 and 3 in Setup section.
-
-
 ## ᴄʀᴇᴅɪᴛs 💖
 - [𝐒𝐓𝐀𝐑 𓆩🇽𓆪 𝐁𝐎𝐈](https://github.com/its-star-boi) for [Nothing](https://github.com/its-star-boi/GitAlert)
 - [Pokurt](https://github.com/pokurt) for [GitGram](https://github.com/pokurt/GitGram)
