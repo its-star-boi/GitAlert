@@ -46,7 +46,7 @@ The easiest way to host this bot, deploy to Heroku, Change the app country to Eu
 
 
 ## ᴄʀᴇᴅɪᴛs 💖
-- [𝐒𝐓𝐀𝐑 𓆩🇽𓆪 𝐁𝐎𝐈](https://github.com/its-star-boi) for [Nothing](https://github.com/its-star-boi/GitGram)
+- [𝐒𝐓𝐀𝐑 𓆩🇽𓆪 𝐁𝐎𝐈](https://github.com/its-star-boi) for [Nothing](https://github.com/its-star-boi/GitAlert)
 - [Pokurt](https://github.com/pokurt) for [GitGram](https://github.com/pokurt/GitGram)
 
 [![ForTheBadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
