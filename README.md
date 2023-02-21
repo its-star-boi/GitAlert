@@ -8,7 +8,7 @@
 
 The easiest way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot more stable).
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/starboihacks369/GitGram"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="200" height="35.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/its-star-boi/GitAlert"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="200" height="35.45"/></a></p>
 
 <h4> Fill all the required variables on heroku, after that follow the steps - </h4>
 
@@ -46,7 +46,7 @@ The easiest way to host this bot, deploy to Heroku, Change the app country to Eu
 
 
 ## ᴄʀᴇᴅɪᴛs 💖
-- [𝐒𝐓𝐀𝐑 𓆩🇽𓆪 𝐁𝐎𝐈](https://github.com/starboihacks369) for [Nothing](https://github.com/Starboihacks369/GitGram)
+- [𝐒𝐓𝐀𝐑 𓆩🇽𓆪 𝐁𝐎𝐈](https://github.com/its-star-boi) for [Nothing](https://github.com/its-star-boi/GitGram)
 - [Pokurt](https://github.com/pokurt) for [GitGram](https://github.com/pokurt/GitGram)
 
 [![ForTheBadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
